@@ -1,7 +1,0 @@
-Test Nov 23 2014 14:41pm PST
-
-
-Sunday 3:25pm PST  #<--- read file function by Greg.
-
-Test2   3pm PST    #<--- parsing time stamps by Jack.
-
