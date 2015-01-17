@@ -15,7 +15,7 @@ output[0]='W'
 
 CSV.open(output, 'w') do |obj|
 	original.each do |row|
-		if  row[3] == 'Expense' then  #check if it's expense
+		if  row[3] == 'Expense' || row[3] == 'Credit' then  #check if it's expense
 			row[3] = 'Hourly Reg'  #Derick said put Hourly Reg
 			row[5] = 'S'	#Derick said S21
 			row[6] = '21'   #Derick said S21
@@ -25,4 +25,4 @@ CSV.open(output, 'w') do |obj|
 		end
 		obj << row
 	end
-end	
+end
